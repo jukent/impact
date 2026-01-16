@@ -18,8 +18,8 @@ test your build locally.
 To build the site on your machine:
 
 ````
-git clone https://github.com/NCAR/vast.git
-cd vast
+git clone https://github.com/NCAR/impact.git
+cd impact
 hugo serve
 ````
 
@@ -41,8 +41,8 @@ hugo v0.97.3+extended darwin/amd64 BuildDate=unknown
   Cleaned          |   0
 
 Built in 360 ms
-Watching for changes in /Users/kpaul/Software/Development/vast-web/{archetypes,content,data,layouts,static,themes}
-Watching for config changes in /Users/kpaul/Software/Development/vast-web/config.toml
+Watching for changes in /Users/kpaul/Software/Development/impact-web/{archetypes,content,data,layouts,static,themes}
+Watching for config changes in /Users/kpaul/Software/Development/impact-web/config.toml
 Environment: "development"
 Serving pages from memory
 Running in Fast Render Mode. For full rebuilds on change: hugo server --disableFastRender
@@ -79,7 +79,7 @@ The following are used when adding content to the website:
 
 - The `data` directory contains data (in YAML file format) that is used to automatically
   generate content on different sections of the website, such as the information about
-  individual team members or team metrics or publications.
+  team metrics or publications.
 
 - The `static` directory contains files used in the website as-is, such as images.
 
@@ -88,19 +88,6 @@ The following are used when adding content to the website:
 The following details what site content you can add or change by changing data files in the
 `data` directory.
 
-#### Adding a new team member
-
-Edit `data/team.yml` to add a new team member
-
-````
-  - name        : JOHN CLYNE
-    designation : Senior Program Manager
-    ncaruname   : clyne
-    githubuname : clyne
-````
-
-A new team member should be added in alphabetical order by last name. Each team member card on the `about` page will be automatically generated based on the contents
-of this data file.
 
 #### Adding publications
 
@@ -137,19 +124,19 @@ Edit `data/presentations.yml` to add a new presentation or publication citation:
 
 The `extra` field is optional and can contain conference city, virtual nature, or any other information.
 
-Please specify the `url` field to be a link to a PDF file of the talk slides or poster uploaded to the [VAST Presentations Google Drive folder](https://drive.google.com/drive/folders/146ZZgV5Pb0-scadJtrPEXfP_jhDYwKVL). Please use a naming convention akin to `Last_Topic_ConferenceYYYY` and be sure that the file's sharing settings allow anyone to view the file.
+Please specify the `url` field to be a link to a PDF file of the talk slides or poster uploaded to the [IMPACT Presentations Google Drive folder](https://drive.google.com/drive/folders/146ZZgV5Pb0-scadJtrPEXfP_jhDYwKVL). Please use a naming convention akin to `Last_Topic_ConferenceYYYY` and be sure that the file's sharing settings allow anyone to view the file.
 
 #### Adding services
 
-Services provided by VAST can be listed in the `data/services.yml` data file, which is used
+Services provided by IMPACT can be listed in the `data/services.yml` data file, which is used
 to automatically create the **SERVICES** section on the website home page.
 
-Separately, you can add a larger writeup about services provided by VAST in the
+Separately, you can add a larger writeup about services provided by IMPACT in the
 `content/_index.md` file's `Content` section.
 
 #### Adding metrics
 
-VAST metrics are displayed in the **METRICS** section of the website home page (near the
+IMPACT metrics are displayed in the **METRICS** section of the website home page (near the
 bottom).  These metrics can be updates by modifying (or adding to) the `data/metrics.yml`
 data file.
 
@@ -164,20 +151,18 @@ available from the site navigation menu:
 - Projects (R&D)
 - Software
 
-#### Modifying the VAST About page
+#### Modifying the IMPACT About page
 
 Just modify the `Content` section (i.e., everything under the header) of the
-`content/about/_index.md` file.  The VAST mission statement (formatted differently
+`content/about/_index.md` file.  The IMPACT mission statement (formatted differently
 on the about page) can be modified by changing the `mission` field in the header.
 
-At the bottom of the About page is the VAST team section, which can be modified by changing the `data/team.yml` file (see above).
-
-#### Modifying the VAST Education page
+#### Modifying the IMPACT Education page
 
 Just modify the `Content` section (i.e., everything under the header) of the
 `content/education/_index.md` file.
 
-#### Modifying the VAST Services page
+#### Modifying the IMPACT Services page
 
 Just modify the `Content` section (i.e., everything under the header) of the
 `content/services/_index.md` file.
@@ -195,7 +180,7 @@ This creates the `content/news/my-new-blog-post.md` file, and you can edit the
 header and contents of the file to display the blog.  This blog will be displayed
 on the main blog page with the thumbnail image and its title.
 
-#### Adding a new project to the VAST R&D page
+#### Adding a new project to the IMPACT R&D page
 
 To create a new project description, just use the `hugo` command line to create a new
 markdown file for the project description:
@@ -207,9 +192,9 @@ hugo new projects/my-project.md
 This creates the `content/projects/my-project.md` file, and you can edit the
 header and contents of the file to change the detailed description of the project.
 This project will be displayed in the **RECENT PROJECTS** section of the main
-website home page and on the **VAST R&D** page.
+website home page and on the **IMPACT R&D** page.
 
-#### Adding a new software product to the VAST Software page
+#### Adding a new software product to the IMPACT Software page
 
 To create a new software product description, just use the `hugo` command line to create a new
 markdown file for the software product:
@@ -221,7 +206,7 @@ hugo new software/my-product.md
 This creates the `content/software/my-product.md` file, and you can edit the
 header and contents of the file to change the detailed description of the software product.
 This project will be displayed in the scrolling carousel of software products at the
-top of the website home page and on the **VAST Software** page.
+top of the website home page and on the **IMPACT Software** page.
 
 ### Using Jupyter Notebooks rather than markdown
 
