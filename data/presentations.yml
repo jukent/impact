@@ -9,7 +9,7 @@ items  :
     conference: FZ Workshop
     year: 2024
     extra: Sarasota, FL
-    url: https://vast.ucar.edu/pdfs/Li_FZ2024.pdf
+    url: https://impact-section.ucar.edu/pdfs/Li_FZ2024.pdf
 
   - title: Tutorial on Scientific Data Compression - SPERR
     authors:
@@ -19,7 +19,7 @@ items  :
     conference: The International Conference for High Performance Computing, Networking, Storage, and Analysis (SC23)
     year: 2023
     extra: Denver, CO
-    url: https://vast.ucar.edu/pdfs/Li_SC23_Slides.pdf
+    url: https://impact-section.ucar.edu/pdfs/Li_SC23_Slides.pdf
 
   - title: Project Rajin and UXarray, community tools for the analysis of kilometer scale climate and weather model outputs
     authors:
@@ -37,7 +37,7 @@ items  :
     conference: 37th IEEE International Parallel & Distributed Processing Symposium (IPDPS)
     year: 2023
     extra: St. Petersburg, FL
-    url: https://vast.ucar.edu/pdfs/Li_IPDPS23_Slides.pdf
+    url: https://impact-section.ucar.edu/pdfs/Li_IPDPS23_Slides.pdf
 
   - title: Examining the Accessibility Barriers of Data Visualizations for Geoscience Professionals Who Are Blind/Vision-Impaired
     authors:

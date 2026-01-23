@@ -7,7 +7,7 @@ image : images/banners/peaks.jpg
 The technology used for data analysis and visualization changes
 rapidly. Making the most effective use of new hardware, software
 ecosystems, services, and even programming languages requires
-continuous education in highly specialized areas. VAST provides
+continuous education in highly specialized areas. IMPACT provides
 numerous educational resources and training opportunities to help
 geoscientists at all stages of their careers stay current with many
 technologies used in analysis workflows.
@@ -25,7 +25,7 @@ does it teach scientists how to use open source resources, Pythia
 places particular emphasis on teaching scientists how to contribute
 back to these communities.
 
-VAST also provides training on the use of its internally developed
+IMPACT also provides training on the use of its internally developed
 open source analysis packages, such as [VAPOR](https://www.vapor.ucar.edu/) and [GeoCAT](https://geocat.ucar.edu/). We organize
 in-person tutorials at conferences such as AMS, AGU; hold periodic
 on-line webinars, and produce a variety of topical webcasts covering
@@ -33,5 +33,5 @@ various aspects of the tools. Many of our recorded sessions are
 available on YouTube and can be accessed from the respective project’s
 websites.
 
-Additionally, VAST is involved in the [Earth System Data Science (ESDS)](https://ncar.github.io/esds/) initiative. 
-ESDS aims to build a community of technical support for geoscientists by addressing common big data challenges. ESDS has four main goals: to facilitate the development of diagnostic frameworks, to improve coordination on analysis workflows, to explore science at scale, and to develop and curate educational materials. By building the bridge between software engineers and scientists, VAST-created tools and packages are better tailored to the needs of NCAR's scientific community and made more accessible via adequate training and support. If you are an NCAR scientist in need of Python support, schedule an [office hours appointment](https://sundog.ucar.edu/Interact/Pages/Content/Document.aspx?id=6160).
+Additionally, IMPACT is involved in the [Earth System Data Science (ESDS)](https://ncar.github.io/esds/) initiative. 
+ESDS aims to build a community of technical support for geoscientists by addressing common big data challenges. ESDS has four main goals: to facilitate the development of diagnostic frameworks, to improve coordination on analysis workflows, to explore science at scale, and to develop and curate educational materials. By building the bridge between software engineers and scientists, IMPACT-created tools and packages are better tailored to the needs of NCAR's scientific community and made more accessible via adequate training and support. If you are an NCAR scientist in need of Python support, schedule an [office hours appointment](https://sundog.ucar.edu/Interact/Pages/Content/Document.aspx?id=6160).
