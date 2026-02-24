@@ -22,5 +22,5 @@ of 22X), there's no difference in the rendering.
 IPDPS is the flagship conference sponsored by the Technical Community on 
 Parallel Processing (TCPP) of IEEE Computer Society.
 The slide deck of this presentation is publicly available [here](https://docs.google.com/presentation/d/144BQrZcpFcWi2px-xnQgQnaOnIyQHvuifA2zChgkYiE/edit?usp=sharing), 
-and the published paper containing more technical details is accessible [here](https://vast.ucar.edu/pdfs/SPERR_IPDPS.pdf).
+and the published paper containing more technical details is accessible [here](https://impact-section.ucar.edu/pdfs/SPERR_IPDPS.pdf).
 Finally, SPERR is open-source software ([Github repo](https://github.com/NCAR/SPERR)).

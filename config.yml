@@ -1,6 +1,6 @@
-baseURL       : https://vast.ucar.edu/
+baseURL       : https://impact-section.ucar.edu/
 languageCode  : en-us
-title         : "VAST | Visualization & Analysis Systems Technologies"
+title         : "IMPACT | Intelligent Methods, Prediction, Analysis, and Community Tools"
 theme         : ncar
 enableGitInfo : true
 summarylength : 25
@@ -44,11 +44,11 @@ menu:
 
 # Site Params
 params:
-  name: VAST
+  name: IMPACT
   dateFormat: "26 FEB 1994"
-  description: "VAST is the Visualization & Analysis Systems Technologies section at the National Center for Atmospheric Research (NCAR)."
-  author: "VAST"
-  email: "vast@ucar.edu"
+  description: "IMPACT is the  Intelligent Methods, Prediction, Analysis, and Community Tools section at the NSF National Center for Atmospheric Research (NCAR)."
+  author: "IMPACT"
+  email: "impact@ucar.edu"
 
   news:
     enable: true
@@ -64,7 +64,7 @@ params:
     contactInfo:
       title  : Contact Info
       address: 1850 Table Mesa Dr.<br>Boulder, CO 80305
-      email  : vast@ucar.edu
+      email  : impact@ucar.edu
 
     sitemap:
       title: Sitemap

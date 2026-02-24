@@ -1,4 +1,4 @@
-name: vast_conda_metrics
+name: impact_conda_metrics
 channels:
   - conda-forge
 dependencies:
